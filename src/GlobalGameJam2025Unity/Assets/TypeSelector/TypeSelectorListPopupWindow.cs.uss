@@ -1,0 +1,97 @@
+
+.holodrone-typeselector-window {
+  border-color: #242424;
+  border-width: 1px;
+  background-color: #191919;
+  padding: 6px;
+  color: #E4E4E4;
+}
+
+  .holodrone-typeselector-window .holodrone-typeselector-window-row {
+    align-items: center;
+    background-color: #191919;
+  }
+
+    .holodrone-typeselector-window .holodrone-typeselector-window-row .holodrone-before {
+      position: absolute;
+      border-radius: 4px;
+      top: 0;
+      bottom: 0;
+      left: 8px;
+      right: 0;
+    }
+  
+    .holodrone-typeselector-window .holodrone-typeselector-window-row:checked .holodrone-before {
+      background-color: #2a2a2a;
+    }
+    .holodrone-typeselector-window .holodrone-typeselector-window-row:focus .holodrone-before {
+      background-color: #3c3c3c;
+    }
+    .holodrone-typeselector-window .holodrone-typeselector-window-row:hover .holodrone-before {
+      background-color: #2c5d87;
+    }
+
+    .holodrone-typeselector-window .holodrone-typeselector-window-row .holodrone-typeselector-window-row__check  {
+      height: 18px;
+      width: 4px;
+      min-width: 4px;
+    
+      margin-top: 1px;
+      margin-bottom: 1px;
+      margin-right: 2px;
+      background-color: #ffffff;
+      opacity: 0.1;
+      border-radius: 2px;
+    }
+    
+      .holodrone-typeselector-window .holodrone-typeselector-window-row:hover .holodrone-typeselector-window-row__check {
+        opacity: 0.2;
+      }
+    
+      .holodrone-typeselector-window .holodrone-typeselector-window-row:checked .holodrone-typeselector-window-row__check {
+        background-color: #3f83bf;
+        opacity: 1;
+      }
+    
+    .holodrone-typeselector-window .holodrone-typeselector-window-row .holodrone-typeselector-window-row__icon  {
+      height: 20px;
+      width: 20px;
+      min-width: 20px;
+    
+      margin-left: 4px;
+      margin-right: 4px;
+      
+      -unity-background-image-tint-color: #E4E4E4;
+    }
+    
+    .holodrone-typeselector-window .holodrone-typeselector-window-row .holodrone-typeselector-window-row__label  {
+      white-space: nowrap;
+      flex-shrink: 1;
+      text-overflow: clip;
+      overflow: hidden;
+		  -unity-text-align: middle-left;
+    }
+    
+    .holodrone-typeselector-window .holodrone-typeselector-window-row .holodrone-typeselector-window-row__spacer  {
+      flex-grow: 1;
+    }
+
+    .holodrone-typeselector-window .holodrone-typeselector-window-row .holodrone-typeselector-window-row__help  {
+      height: 20px;
+      width: 20px;
+      min-width: 20px;
+      
+      margin-left: 4px;
+      opacity: 0.325;
+
+      background-size: 14px 14px;
+      background-image: url('./../../Resources/holodrone-help.png');
+    }
+    
+      .holodrone-typeselector-window .holodrone-typeselector-window-row:hover .holodrone-typeselector-window-row__help {
+        opacity: 0.7;
+      }
+      
+      .holodrone-typeselector-window .holodrone-typeselector-window-row .holodrone-typeselector-window-row__help:hover {
+        background-image: url('./../../Resources/holodrone-help-fill.png');
+      }
