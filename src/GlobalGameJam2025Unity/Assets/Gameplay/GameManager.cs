@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(PlayerInputManager))]
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] internal CinemachineCamera combatCamera;
+
     [SerializeField] private CinemachineTargetGroup characters;
 
     [SerializeField] private Animator lobbyFooterAnimator;

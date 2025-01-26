@@ -45,14 +45,12 @@ public class CombatantCharacterController : MonoBehaviour
         graphicsAnimator.SetTrigger("Attack");
     }
 
-    public void Dash()
+    public void Dash(Vector2 direction)
     {
-        var target = inputFilter.Target.normalized;
-
         // var localDash = Quaternion.Inverse(transform.rotation) * new Vector3(target.x, 0.0f, target.y);
 
         graphicsAnimator.SetTrigger("Dash");
-        graphicsAnimator.SetFloat("DashY", target.x);
-        graphicsAnimator.SetFloat("DashX", target.y);
+        graphicsAnimator.SetFloat("DashX", direction.x);
+        graphicsAnimator.SetFloat("DashY", direction.y);
     }
 }
