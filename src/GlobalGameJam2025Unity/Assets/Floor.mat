@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -64,6 +64,18 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_1e05204b909341fd97ed67a193f047d3_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 8f25a88deb884497a8e7375cb05ca93f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_3dbbec96d14543f0b4dfa104026351b4_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: d0c53e1d8af0342fca03e1147d582295, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_af753fd2b0bb4916a0d6af9628af2f2e_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: d9fe05134f33344e19afd50ed4c9594b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -93,6 +105,7 @@ Material:
     - _ColorMask: 15
     - _Cull: 2
     - _Cutoff: 0.5
+    - _Depth: 1.38
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
@@ -127,6 +140,7 @@ Material:
     - _BaseColor: {r: 0.27224985, g: 0.29307684, b: 0.3584905, a: 0.9372549}
     - _Color: {r: 0.27224982, g: 0.2930768, b: 0.35849047, a: 0.9372549}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FloorTile: {r: 5, g: 10, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
