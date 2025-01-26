@@ -32,6 +32,6 @@ public class SmoothDampInterpolator : IInterpolatorFloat
 
     public void Update(float deltaTime)
     {
-        Value = Mathf.SmoothDamp(Value, Target, ref velocity, smoothTime, maxSpeed);
+        Value = Mathf.SmoothDamp(Value, Target, ref velocity, smoothTime, maxSpeed, deltaTime);
     }
 }
