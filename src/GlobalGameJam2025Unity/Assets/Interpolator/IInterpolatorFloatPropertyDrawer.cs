@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#if UNITY_EDITOR
+using UnityEngine;
 using UnityEditor;
 using HuskyUnity.Engineering.TypeSelector;
 
@@ -15,3 +16,4 @@ public class IInterpolatorFloatPropertyDrawer : PropertyDrawer
         TypeSelectorUI.DrawStaticSelector(position, property, label);
     }
 }
+#endif
